@@ -1,0 +1,29 @@
+{
+  "name": "nodejs_login",
+  "version": "1.0.0",
+  "description": "nodejs를 이용한 로그인 페이지 구현",
+  "main": "app.js",
+  "bin": {
+    "nodejs_login": "www.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start" : "node ./bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryuzho/nodejs_login.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryuzho/nodejs_login/issues"
+  },
+  "homepage": "https://github.com/ryuzho/nodejs_login#readme"
+}
